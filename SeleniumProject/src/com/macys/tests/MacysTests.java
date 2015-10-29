@@ -50,6 +50,9 @@ public class MacysTests {
 		actual = actual + searchPage.getItemsCount("//a[@class='productThumbnailLink']",searchItem);
 		int expected = 80;
 		Assert.assertEquals(expected, actual);
+		
+		
+		
 	}
 }
 /*
